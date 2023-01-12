@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.banniere {
+  background: url("assets/images/banniere-nenuphar.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+.banniere-img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.siteName {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: rgb(252, 214, 220);
+  font-family: "Homemade Apple", cursive;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.navbar {
+  background-color: rgb(252, 214, 220);
+}
+@media all and (min-width: 768px) {
+  .siteName {
+    font-size: 3rem;
+    top: 0;
+  }
+}
