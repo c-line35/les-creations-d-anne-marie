@@ -24,12 +24,36 @@
   text-align: center;
   font-size: 1.3rem;
 }
+h3 {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(118, 118, 118);
+}
 .navbar {
-  background-color: rgb(252, 214, 220);
+  background-color: rgba(252, 214, 220);
 }
 @media all and (min-width: 768px) {
   .siteName {
     font-size: 3rem;
     top: 0;
   }
+}
+.atelier {
+  margin-top: 40px;
+  width: 20%;
+  min-width: 250px;
+  position: relative;
+  &__bg {
+    position: absolute;
+    z-index: -1;
+  }
+  &__ligne {
+    margin-bottom: 5px;
+  }
+  &__autor {
+    margin-left: 30%;
+  }
+}
+
+.printemps-null {
+  display: none;
 }
