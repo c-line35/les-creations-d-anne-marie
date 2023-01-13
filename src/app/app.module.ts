@@ -11,9 +11,19 @@ import { DessinsComponent } from './dessins/dessins.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { MandalasComponent } from './mandalas/mandalas.component';
 import { HaikusComponent } from './haikus/haikus.component';
+import { VideComponent } from './vide/vide.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, AtelierComponent, DessinsComponent, AccueilComponent, MandalasComponent, HaikusComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    AtelierComponent,
+    DessinsComponent,
+    AccueilComponent,
+    MandalasComponent,
+    HaikusComponent,
+    VideComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],

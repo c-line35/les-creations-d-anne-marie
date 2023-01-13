@@ -3,6 +3,10 @@
   box-sizing: border-box;
   margin: 0;
 }
+#carousel-accueil {
+  width: 75%;
+  margin: auto;
+}
 .banniere {
   background: url("assets/images/banniere-nenuphar.jpg") center;
   background-size: cover;
@@ -24,6 +28,15 @@
   text-align: center;
   font-size: 1.3rem;
 }
+h1 {
+  text-align: center;
+  font-family: "Homemade Apple", cursive;
+  color: rgb(118, 118, 118);
+}
+h2 {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(118, 118, 118);
+}
 h3 {
   font-family: "Homemade Apple", cursive;
   color: rgb(118, 118, 118);
@@ -37,9 +50,21 @@ h3 {
     top: 0;
   }
 }
+.ateliers-main {
+  display: flex;
+  margin-top: 70px;
+}
+.navbar-ateliers {
+  background-color: white;
+  height: 100px;
+}
+.section-ateliers {
+  border-left: 1px solid rgb(231, 231, 231);
+  padding-left: 20px;
+}
 .atelier {
-  margin-top: 40px;
-  width: 20%;
+  margin-top: 60px;
+  width: 30%;
   min-width: 250px;
   position: relative;
   &__bg {
@@ -52,8 +77,12 @@ h3 {
   &__autor {
     margin-left: 30%;
   }
+  &--conclusion {
+    margin: auto;
+    margin-top: 70px;
+  }
 }
-
-.printemps-null {
-  display: none;
+#automne,
+#hiver {
+  margin-top: 70px;
 }
