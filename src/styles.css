@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#carousel-accueil {
+  width: 30%;
+  margin: auto;
+}
+
+.banniere {
+  background: url("assets/images/banniere-nenuphar.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.banniere-img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.siteName {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: rgb(252, 214, 220);
+  font-family: "Homemade Apple", cursive;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Homemade Apple", cursive;
+  color: rgb(118, 118, 118);
+}
+
+h2 {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(118, 118, 118);
+}
+
+h3 {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(118, 118, 118);
+}
+
+.navbar {
+  background-color: rgb(252, 214, 220);
+}
+
+@media all and (min-width: 768px) {
+  .siteName {
+    font-size: 3rem;
+    top: 0;
+  }
+}
+.ateliers-main {
+  display: flex;
+  margin-top: 70px;
+}
+
+.navbar-ateliers {
+  background-color: white;
+  height: 100px;
+}
+
+.section-ateliers {
+  border-left: 1px solid rgb(231, 231, 231);
+  padding-left: 20px;
+}
+
+.atelier {
+  margin-top: 60px;
+  width: 30%;
+  min-width: 250px;
+  position: relative;
+}
+.atelier__bg {
+  position: absolute;
+  z-index: -1;
+}
+.atelier__ligne {
+  margin-bottom: 5px;
+}
+.atelier__autor {
+  margin-left: 30%;
+}
+.atelier--conclusion {
+  margin: auto;
+  margin-top: 70px;
+}
+
+#automne,
+#hiver {
+  margin-top: 70px;
+}
+
+.dessin {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section-dessin {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 100px;
+  width: 30%;
+  min-width: 250px;
+}
+.section-dessin img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=styles.css.map */

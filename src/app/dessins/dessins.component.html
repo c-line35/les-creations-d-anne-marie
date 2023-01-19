@@ -1,1 +1,9 @@
-<app-vide></app-vide>
+<main>
+  <section class="container dessin">
+    <div class="section-dessin" *ngFor="let dessin of liste">
+      <h3>{{ dessin.titre }}</h3>
+      <img src="assets/dessins/{{ dessin.image }}.jpg" />
+      <div *ngI="dessin.commentaire.length > 0">{{ dessin.commentaire }}</div>
+    </div>
+  </section>
+</main>
